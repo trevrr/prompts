@@ -1,11 +1,16 @@
 <html>
 <head>
+  <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Josefin Sans">
   <style>
     body {
       position: relative;
+      background: #f4d942;
     }
     p {
       font-size: 3em;
+      font-color: #af0824;
+      font-family: 'Josefin Sans', serif;
       position: absolute;
       top: 50%;
       left: 50%;
@@ -14,13 +19,13 @@
     }
   </style>
   <script type="text/javascript" src="prompts.js"></script>
- <script type="text/javascript">
-  var choosePrompt = function() {
-    var prompt = myPrompts[Math.floor(Math.random() * myPrompts.length)];
-    document.getElementById("dailyprompt").innerText = prompt;
-  };
-  window.addEventListener('DOMContentLoaded', choosePrompt);
- </script>
+  <script type="text/javascript">
+    var choosePrompt = function() {
+      var prompt = myPrompts[Math.floor(Math.random() * myPrompts.length)];
+      document.getElementById("dailyprompt").innerText = prompt;
+    };
+    window.addEventListener('DOMContentLoaded', choosePrompt);
+  </script>
 </head>
 <body>
 <p id=dailyprompt>
