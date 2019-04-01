@@ -14,10 +14,17 @@
     }
   </style>
   <script type="text/javascript" src="prompts.js"></script>
+ <script type="text/javascript">
+  var choosePrompt = function() {
+    var prompt = myPrompts[Math.floor(Math.random() * myPrompts.length)];
+    document.getElementById("dailyprompt").innerText = prompt;
+  };
+  window.addEventListener('DOMContentLoaded', choosePrompt);
+ </script>
 </head>
 <body>
-<p>
-What would make what I am doing right now easiest?
+<p id=dailyprompt>
+<!-- What would make what I am doing right now easiest? -->
 </p>
 </body>
 </html>
