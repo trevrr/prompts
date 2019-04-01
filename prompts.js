@@ -136,4 +136,5 @@ myPrompts = [ "Some ways I could honor negative emotions without judgment are…
 "I feel happiest in my skin when…",
 "Make a list of everything you’d like to say no to.",
 "Make a list of everything you’d like to say yes to.",
-"Write the words you need to hear." ]
+"Write the words you need to hear." ];
+
