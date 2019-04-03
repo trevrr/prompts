@@ -1,0 +1,21 @@
+{
+  "short_name": "Mindfulness",
+  "name": "Mindfulness Prompts",
+  "icons": [
+    {
+      "src": "/images/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/images/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/mindfulness-prompts/",
+  "background_color": "#f4d942",
+  "display": "standalone",
+  "scope": "/mindfulness-prompts/",
+  "theme_color": "#f4d942"
+}
