@@ -333,7 +333,6 @@ myPrompts = [
     "Cut a vital connection",
     "Cut a virtual connection",
     "Decorate, decorate",
-    "Define an area as â€œsafeâ€ and use it as an anchor",
     "Describe the landscape in which this belongs",
     "Destroy nothing",
     "Discard an axiom",
