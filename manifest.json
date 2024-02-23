@@ -1,6 +1,6 @@
 {
-  "short_name": "Mindfulness",
-  "name": "Mindfulness Prompts",
+  "short_name": "Prompts",
+  "name": "Prompts for help and consideration",
   "icons": [
     {
       "src": "/images/icon-192.png",
@@ -13,9 +13,9 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "/mindfulness-prompts/",
+  "start_url": "/prompts/",
   "background_color": "#f4d942",
   "display": "standalone",
-  "scope": "/mindfulness-prompts/",
+  "scope": "/prompts/",
   "theme_color": "#f4d942"
 }
